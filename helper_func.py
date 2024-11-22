@@ -107,7 +107,7 @@ def get_readable_time(seconds: int) -> str:
     return up_time
 
 async def delete_file(messages, client, process):
-    await asyncio.sleep(AUTO_DELETE_TIME*60)
+    await asyncio.sleep(AUTO_DELETE_TIME*60*60)
     for msg in messages:
         try:
             await client.delete_messages(chat_id=msg.chat.id, message_ids=[msg.id])
