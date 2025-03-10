@@ -70,7 +70,7 @@ class Bot(Client):
                 self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/CodeXBotzSupport for support")
                 sys.exit()
 
-        # Check DB channel
+        # Check DB channel...
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
             self.db_channel = db_channel
