@@ -47,4 +47,7 @@ except ValueError:
     raise Exception("Your Admins list does not contain valid integers.")
 
 # Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐇𝐞𝐥𝐥𝐨 {first} 🤝🤝 \n\n<b>𝒀𝒐𝒖 𝒏𝒆𝒆𝒅 𝒕𝒐 𝒋𝒐𝒊𝒏 𝑳-𝑭𝑳𝑰𝑿 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 𝒂𝒏𝒅 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝒊𝒏 𝒐𝒓𝒅𝒆𝒓 𝒕𝒐 𝒖𝒔𝒆 𝒎𝒆\n\n𝑷𝒍𝒆𝒂𝒔𝒆 𝒋𝒐𝒊𝒏 𝒕𝒉𝒆 𝒈𝒓𝒐𝒖𝒑 𝒂𝒏𝒅 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒃𝒚 𝒇𝒐𝒍𝒍𝒐𝒘𝒊𝒏𝒈 𝒕𝒉𝒆 𝒍𝒊
+FORCE_MSG = os.environ.get(
+    "FORCE_SUB_MESSAGE",
+    "𝐇𝐞𝐥𝐥𝐨 {first} 🤝🤝 \n\n<b>𝒀𝒐𝒖 𝒏𝒆𝒆𝒅 𝒕𝒐 𝒋𝒐𝒊𝒏 𝑳-𝑭𝑳𝑰𝑿 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 𝒂𝒏𝒅 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝒊𝒏 𝒐𝒓𝒅𝒆𝒓 𝒕𝒐 𝒖𝒔𝒆 𝒎𝒆\n\n𝑷𝒍𝒆𝒂𝒔𝒆 𝒋𝒐𝒊𝒏 𝒕𝒉𝒆 𝒈𝒓𝒐𝒖𝒑 𝒂𝒏𝒅 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒃𝒚 𝒇𝒐𝒍𝒍𝒐𝒘𝒊𝒏𝒈 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌𝒔 𝒃𝒆𝒍𝒐𝒘 👇👇"
+)
