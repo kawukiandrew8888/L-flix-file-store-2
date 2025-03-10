@@ -166,12 +166,12 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "📢 𝑱𝑶𝑰𝑵 𝑪𝑯𝑨𝑵𝑵𝑬𝑳 1",
+                "📢 𝐋-𝐅𝐋𝐈𝐗 𝐆𝐑𝐎𝐔𝐏 ",
                 url = client.invitelink)
         ],
         [
             InlineKeyboardButton(
-                "📢 𝑱𝑶𝑰𝑵 𝑪𝑯𝑨𝑵𝑵𝑬𝑳 2",
+                "📢 𝐋-𝐅𝐋𝐈𝐗 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐 ",
                 url = client.invitelink2)  # New invite link for the second channel
         ]
     ]
