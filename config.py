@@ -1,3 +1,4 @@
+import os
 # Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
